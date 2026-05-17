@@ -5,7 +5,7 @@
 
   <id>https://hmhashemali16.github.io/OPDS/index.xml</id>
   <title>HM Hashem Ali – Digital Library</title>
-  <updated>2026-05-18T00:00:00Z</updated>
+  <updated>2026-05-17T20:25:13Z</updated>
   <author>
     <name>HM Hashem Ali</name>
   </author>
@@ -16,7 +16,5 @@
   <link rel="start"
         href="https://hmhashemali16.github.io/OPDS/index.xml"
         type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
-
-  <!-- বই যোগ হলে GitHub Actions এখানে entry যোগ করবে -->
 
 </feed>
