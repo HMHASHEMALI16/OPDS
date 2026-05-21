@@ -5,7 +5,7 @@
 
   <id>https://hmhashemali16.github.io/OPDS/index.xml</id>
   <title>HM Hashem Ali – Digital Library</title>
-  <updated>2026-05-17T20:26:20Z</updated>
+  <updated>2026-05-21T18:33:23Z</updated>
   <author>
     <name>HM Hashem Ali</name>
   </author>
@@ -17,13 +17,4 @@
         href="https://hmhashemali16.github.io/OPDS/index.xml"
         type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
 
-  <entry>
-    <title>কুহেলিকা (১৯৩১)</title>
-    <id>urn:uuid:07149b13-9b06-5928-be0d-3f97a9cfe50a</id>
-    <updated>2026-05-17T20:26:20Z</updated>
-    <author><name>নজরুল রচনাবলী (কাজী নজরুল ইসলাম)</name></author>
-    <link rel="http://opds-spec.org/acquisition"
-          href="https://hmhashemali16.github.io/OPDS/books/কুহেলিকা_(১৯৩১)_-_নজরুল_রচনাবলী_(কাজী_নজরুল_ইসলাম).epub"
-          type="application/epub+zip"/>
-  </entry>
 </feed>
