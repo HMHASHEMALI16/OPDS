@@ -1,0 +1,33 @@
+name: Update OPDS Catalog
+
+on:
+  push:
+    paths:
+      - '*.epub'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run OPDS Generator Script
+        run: python generate_opds.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog.xml
+          git commit -m "Auto-updated OPDS catalog" || echo "No changes to commit"
+          git push
+          
