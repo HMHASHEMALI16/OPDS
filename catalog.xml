@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog">
+  <id>urn:uuid:hmhashemali-opds-library</id>
+  <title>My eBook Collection</title>
+  <author><name>HM Hashem Ali</name></author>
+</feed>
