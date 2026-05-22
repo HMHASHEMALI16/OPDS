@@ -5,11 +5,8 @@ import html
 folder_path = '.' 
 xml_path = 'catalog.xml'
 
-# আপনার স্ক্রিনশট অনুযায়ী রিপোজিটরির সঠিক নাম বসানো হয়েছে
-repo_name = "OPDS" 
-
-# আইকনের সরাসরি গিটহাব র-লিংক (Absolute URL)
-icon_url = f"https://raw.githubusercontent.com/HMHASHEMALI16/{repo_name}/main/Bookicon.png"
+# গিটহাব পেজেসের সরাসরি লাইভ লিংক ব্যবহার করা হলো
+icon_url = "https://hmhashemali16.github.io/OPDS/Bookicon.png"
 
 xml_content = f"""<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog">
@@ -21,12 +18,10 @@ xml_content = f"""<?xml version="1.0" encoding="utf-8"?>
 
 books = []
 
-# মেইন ফোল্ডারের সব epub ফাইল খুঁজবে
 for filename in os.listdir(folder_path):
     if filename.endswith('.epub'):
         raw_name = os.path.splitext(filename)[0]
         
-        # নাম ও লেখক আলাদা করা
         if "_-_" in raw_name:
             parts = raw_name.split("_-_")
             book_title = parts[0].replace("_", " ").strip()
@@ -41,10 +36,8 @@ for filename in os.listdir(folder_path):
             'filename': filename
         })
 
-# বাংলা বর্ণমালা অনুযায়ী সাজানো
 books.sort(key=lambda x: x['title'])
 
-# XML এন্ট্রি তৈরি
 for book in books:
     safe_title = html.escape(book['title'])
     safe_author = html.escape(book['author'])
