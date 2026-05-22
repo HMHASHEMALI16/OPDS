@@ -2,25 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog">
   <id>urn:uuid:hmhashemali-opds-library</id>
   <title>My eBook Collection</title>
-  <updated>2026-05-22T10:24:36.193632Z</updated>
+  <updated>2026-05-22T15:57:09.167126Z</updated>
   <author><name>HM Hashem Ali</name></author>
 
-  <entry>
-    <title>অনুর পাঠশালা (উপন্যাস)</title>
-    <author>
-      <name>মাহমুদুল হক</name>
-    </author>
-    <id>urn:uuid:অনুর_পাঠশালা_(উপন্যাস)_-_মাহমুদুল_হক.epub</id>
-    <updated>2026-05-22T10:24:36.193812Z</updated>
-    <link rel="http://opds-spec.org/acquisition" href="অনুর_পাঠশালা_(উপন্যাস)_-_মাহমুদুল_হক.epub" type="application/epub+zip" />
-  </entry>
   <entry>
     <title>অগ্নি</title>
     <author>
       <name>বনফুল</name>
     </author>
     <id>urn:uuid:অগ্নি_-_বনফুল.epub</id>
-    <updated>2026-05-22T10:24:36.193824Z</updated>
+    <updated>2026-05-22T15:57:09.167209Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/image" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
     <link rel="http://opds-spec.org/acquisition" href="অগ্নি_-_বনফুল.epub" type="application/epub+zip" />
   </entry>
   <entry>
@@ -29,17 +22,10 @@
       <name>নজরুল রচনাবলী (কাজী নজরুল ইসলাম)</name>
     </author>
     <id>urn:uuid:অগ্নিবীণা_(১৯২২)_-_নজরুল_রচনাবলী_(কাজী_নজরুল_ইসলাম).epub</id>
-    <updated>2026-05-22T10:24:36.193832Z</updated>
+    <updated>2026-05-22T15:57:09.167214Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/image" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
     <link rel="http://opds-spec.org/acquisition" href="অগ্নিবীণা_(১৯২২)_-_নজরুল_রচনাবলী_(কাজী_নজরুল_ইসলাম).epub" type="application/epub+zip" />
-  </entry>
-  <entry>
-    <title>বড়দিদি</title>
-    <author>
-      <name>শরৎচন্দ্র চট্টোপাধ্যায়</name>
-    </author>
-    <id>urn:uuid:বড়দিদি_-_শরৎচন্দ্র_চট্টোপাধ্যায়.epub</id>
-    <updated>2026-05-22T10:24:36.193838Z</updated>
-    <link rel="http://opds-spec.org/acquisition" href="বড়দিদি_-_শরৎচন্দ্র_চট্টোপাধ্যায়.epub" type="application/epub+zip" />
   </entry>
   <entry>
     <title>অজ্ঞাত রচনা</title>
@@ -47,7 +33,130 @@
       <name>শরৎ রচনাবলী</name>
     </author>
     <id>urn:uuid:অজ্ঞাত_রচনা_-_শরৎ_রচনাবলী.epub</id>
-    <updated>2026-05-22T10:24:36.193844Z</updated>
+    <updated>2026-05-22T15:57:09.167218Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/image" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
     <link rel="http://opds-spec.org/acquisition" href="অজ্ঞাত_রচনা_-_শরৎ_রচনাবলী.epub" type="application/epub+zip" />
+  </entry>
+  <entry>
+    <title>অনুর পাঠশালা (উপন্যাস)</title>
+    <author>
+      <name>মাহমুদুল হক</name>
+    </author>
+    <id>urn:uuid:অনুর_পাঠশালা_(উপন্যাস)_-_মাহমুদুল_হক.epub</id>
+    <updated>2026-05-22T15:57:09.167221Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/image" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/acquisition" href="অনুর_পাঠশালা_(উপন্যাস)_-_মাহমুদুল_হক.epub" type="application/epub+zip" />
+  </entry>
+  <entry>
+    <title>অরিজিন – ড্যান ব্রাউন</title>
+    <author>
+      <name>অনুবাদ সাহিত্য</name>
+    </author>
+    <id>urn:uuid:অরিজিন_–_ড্যান_ব্রাউন_-_অনুবাদ_সাহিত্য.epub</id>
+    <updated>2026-05-22T15:57:09.167224Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/image" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/acquisition" href="অরিজিন_–_ড্যান_ব্রাউন_-_অনুবাদ_সাহিত্য.epub" type="application/epub+zip" />
+  </entry>
+  <entry>
+    <title>আবদুল জব্বারের গল্প</title>
+    <author>
+      <name>আবদুল জব্বার</name>
+    </author>
+    <id>urn:uuid:আবদুল_জব্বারের_গল্প_-_আবদুল_জব্বার.epub</id>
+    <updated>2026-05-22T15:57:09.167227Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/image" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/acquisition" href="আবদুল_জব্বারের_গল্প_-_আবদুল_জব্বার.epub" type="application/epub+zip" />
+  </entry>
+  <entry>
+    <title>আমাদের চিঠিযুগ কুউউ ঝিকঝিক</title>
+    <author>
+      <name>ইমতিয়ার শামীম</name>
+    </author>
+    <id>urn:uuid:আমাদের_চিঠিযুগ_কুউউ_ঝিকঝিক_-_ইমতিয়ার_শামীম.epub</id>
+    <updated>2026-05-22T15:57:09.167230Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/image" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/acquisition" href="আমাদের_চিঠিযুগ_কুউউ_ঝিকঝিক_-_ইমতিয়ার_শামীম.epub" type="application/epub+zip" />
+  </entry>
+  <entry>
+    <title>আর কত দিন</title>
+    <author>
+      <name>জহির রায়হান</name>
+    </author>
+    <id>urn:uuid:আর_কত_দিন_-_জহির_রায়হান.epub</id>
+    <updated>2026-05-22T15:57:09.167232Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/image" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/acquisition" href="আর_কত_দিন_-_জহির_রায়হান.epub" type="application/epub+zip" />
+  </entry>
+  <entry>
+    <title>আরেক ফাল্গুন (উপন্যাস) (১৯৬৯)</title>
+    <author>
+      <name>জহির রায়হান</name>
+    </author>
+    <id>urn:uuid:আরেক_ফাল্গুন_(উপন্যাস)_(১৯৬৯)_-_জহির_রায়হান.epub</id>
+    <updated>2026-05-22T15:57:09.167235Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/image" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/acquisition" href="আরেক_ফাল্গুন_(উপন্যাস)_(১৯৬৯)_-_জহির_রায়হান.epub" type="application/epub+zip" />
+  </entry>
+  <entry>
+    <title>আল মাহমুদের কবিতা</title>
+    <author>
+      <name>আল মাহমুদ</name>
+    </author>
+    <id>urn:uuid:আল_মাহমুদের_কবিতা_-_আল_মাহমুদ.epub</id>
+    <updated>2026-05-22T15:57:09.167238Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/image" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/acquisition" href="আল_মাহমুদের_কবিতা_-_আল_মাহমুদ.epub" type="application/epub+zip" />
+  </entry>
+  <entry>
+    <title>আশাপূর্ণা দেবীর গল্প</title>
+    <author>
+      <name>আশাপূর্ণা দেবী</name>
+    </author>
+    <id>urn:uuid:আশাপূর্ণা_দেবীর_গল্প_-_আশাপূর্ণা_দেবী.epub</id>
+    <updated>2026-05-22T15:57:09.167241Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/image" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/acquisition" href="আশাপূর্ণা_দেবীর_গল্প_-_আশাপূর্ণা_দেবী.epub" type="application/epub+zip" />
+  </entry>
+  <entry>
+    <title>আশুতোষ মুখোপাধ্যায়ের গল্প</title>
+    <author>
+      <name>আশুতোষ মুখোপাধ্যায়</name>
+    </author>
+    <id>urn:uuid:আশুতোষ_মুখোপাধ্যায়ের_গল্প_-_আশুতোষ_মুখোপাধ্যায়.epub</id>
+    <updated>2026-05-22T15:57:09.167244Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/image" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/acquisition" href="আশুতোষ_মুখোপাধ্যায়ের_গল্প_-_আশুতোষ_মুখোপাধ্যায়.epub" type="application/epub+zip" />
+  </entry>
+  <entry>
+    <title>আয়না (ব্যঙ্গরচনা)</title>
+    <author>
+      <name>আবুল মনসুর আহমেদ</name>
+    </author>
+    <id>urn:uuid:আয়না_(ব্যঙ্গরচনা)_-_আবুল_মনসুর_আহমেদ.epub</id>
+    <updated>2026-05-22T15:57:09.167247Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/image" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/acquisition" href="আয়না_(ব্যঙ্গরচনা)_-_আবুল_মনসুর_আহমেদ.epub" type="application/epub+zip" />
+  </entry>
+  <entry>
+    <title>বড়দিদি</title>
+    <author>
+      <name>শরৎচন্দ্র চট্টোপাধ্যায়</name>
+    </author>
+    <id>urn:uuid:বড়দিদি_-_শরৎচন্দ্র_চট্টোপাধ্যায়.epub</id>
+    <updated>2026-05-22T15:57:09.167250Z</updated>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/image" href="https://hmhashemali16.github.io/OPDS/Bookicon.png" type="image/png" />
+    <link rel="http://opds-spec.org/acquisition" href="বড়দিদি_-_শরৎচন্দ্র_চট্টোপাধ্যায়.epub" type="application/epub+zip" />
   </entry>
 </feed>
