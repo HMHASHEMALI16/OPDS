@@ -2,19 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog">
   <id>urn:uuid:hmhashemali-opds-library</id>
   <title>My eBook Collection</title>
-  <updated>2026-05-21T18:42:39.788686Z</updated>
+  <updated>2026-05-22T10:24:36.193632Z</updated>
   <author><name>HM Hashem Ali</name></author>
 
   <entry>
-    <title>অগ্নি_-_বনফুল</title>
+    <title>অনুর পাঠশালা (উপন্যাস)</title>
+    <author>
+      <name>মাহমুদুল হক</name>
+    </author>
+    <id>urn:uuid:অনুর_পাঠশালা_(উপন্যাস)_-_মাহমুদুল_হক.epub</id>
+    <updated>2026-05-22T10:24:36.193812Z</updated>
+    <link rel="http://opds-spec.org/acquisition" href="অনুর_পাঠশালা_(উপন্যাস)_-_মাহমুদুল_হক.epub" type="application/epub+zip" />
+  </entry>
+  <entry>
+    <title>অগ্নি</title>
+    <author>
+      <name>বনফুল</name>
+    </author>
     <id>urn:uuid:অগ্নি_-_বনফুল.epub</id>
-    <updated>2026-05-21T18:42:39.788733Z</updated>
+    <updated>2026-05-22T10:24:36.193824Z</updated>
     <link rel="http://opds-spec.org/acquisition" href="অগ্নি_-_বনফুল.epub" type="application/epub+zip" />
   </entry>
   <entry>
-    <title>বড়দিদি_-_শরৎচন্দ্র_চট্টোপাধ্যায়</title>
+    <title>অগ্নিবীণা (১৯২২)</title>
+    <author>
+      <name>নজরুল রচনাবলী (কাজী নজরুল ইসলাম)</name>
+    </author>
+    <id>urn:uuid:অগ্নিবীণা_(১৯২২)_-_নজরুল_রচনাবলী_(কাজী_নজরুল_ইসলাম).epub</id>
+    <updated>2026-05-22T10:24:36.193832Z</updated>
+    <link rel="http://opds-spec.org/acquisition" href="অগ্নিবীণা_(১৯২২)_-_নজরুল_রচনাবলী_(কাজী_নজরুল_ইসলাম).epub" type="application/epub+zip" />
+  </entry>
+  <entry>
+    <title>বড়দিদি</title>
+    <author>
+      <name>শরৎচন্দ্র চট্টোপাধ্যায়</name>
+    </author>
     <id>urn:uuid:বড়দিদি_-_শরৎচন্দ্র_চট্টোপাধ্যায়.epub</id>
-    <updated>2026-05-21T18:42:39.788737Z</updated>
+    <updated>2026-05-22T10:24:36.193838Z</updated>
     <link rel="http://opds-spec.org/acquisition" href="বড়দিদি_-_শরৎচন্দ্র_চট্টোপাধ্যায়.epub" type="application/epub+zip" />
+  </entry>
+  <entry>
+    <title>অজ্ঞাত রচনা</title>
+    <author>
+      <name>শরৎ রচনাবলী</name>
+    </author>
+    <id>urn:uuid:অজ্ঞাত_রচনা_-_শরৎ_রচনাবলী.epub</id>
+    <updated>2026-05-22T10:24:36.193844Z</updated>
+    <link rel="http://opds-spec.org/acquisition" href="অজ্ঞাত_রচনা_-_শরৎ_রচনাবলী.epub" type="application/epub+zip" />
   </entry>
 </feed>
