@@ -1,4 +1,4 @@
-## 📚 HM 16 Library – OPDS Catalog
+## 📚 HM 16 LIBRARY – OPDS Catalog
 
 Add this OPDS link to your E-Book Reader app:
 
