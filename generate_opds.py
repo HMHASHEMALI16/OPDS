@@ -4,7 +4,13 @@ import html
 
 folder_path = '.' 
 xml_path = 'catalog.xml'
-icon_filename = 'Bookicon.png'  # আপনার আপলোড করা আইকনের নাম
+
+# ⚠️ নিচে 'YOUR_REPO_NAME' মুছে আপনার গিটহাব রিপোজিটরির সঠিক নাম বসান
+# উদাহরণ: repo_name = "My-eBook-Library"
+repo_name = "YOUR_REPO_NAME" 
+
+# আইকনের সরাসরি গিটহাব র-লিংক তৈরি করা হলো
+icon_url = f"https://raw.githubusercontent.com/HMHASHEMALI16/{repo_name}/main/Bookicon.png"
 
 xml_content = f"""<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog">
@@ -16,11 +22,12 @@ xml_content = f"""<?xml version="1.0" encoding="utf-8"?>
 
 books = []
 
-# মেইন ফোল্ডারের সব epub ফাইল খুঁজবে এবং লিস্টে জমা করবে
+# মেইন ফোল্ডারের সব epub ফাইল খুঁজবে
 for filename in os.listdir(folder_path):
     if filename.endswith('.epub'):
         raw_name = os.path.splitext(filename)[0]
         
+        # নাম ও লেখক আলাদা করা
         if "_-_" in raw_name:
             parts = raw_name.split("_-_")
             book_title = parts[0].replace("_", " ").strip()
@@ -29,22 +36,21 @@ for filename in os.listdir(folder_path):
             book_title = raw_name.replace("_", " ").strip()
             author_name = "অজানা লেখক"
 
-        # বইয়ের তথ্যগুলো ডিকশনারি হিসেবে লিস্টে রাখা হচ্ছে
         books.append({
             'title': book_title,
             'author': author_name,
             'filename': filename
         })
 
-# বাংলা বর্ণমালা অনুযায়ী স্বয়ংক্রিয়ভাবে সাজানো (Sort)
+# বাংলা বর্ণমালা অনুযায়ী সাজানো
 books.sort(key=lambda x: x['title'])
 
-# সাজানো বইগুলো দিয়ে XML তৈরি করা
+# XML এন্ট্রি তৈরি
 for book in books:
     safe_title = html.escape(book['title'])
     safe_author = html.escape(book['author'])
     safe_filename = html.escape(book['filename'])
-    safe_icon = html.escape(icon_filename)
+    safe_icon = html.escape(icon_url)
 
     xml_content += f"""
   <entry>
@@ -63,4 +69,4 @@ xml_content += "\n</feed>"
 
 with open(xml_path, 'w', encoding='utf-8') as f:
     f.write(xml_content)
-  
+    
