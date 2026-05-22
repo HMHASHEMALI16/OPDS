@@ -5,11 +5,10 @@ import html
 folder_path = '.' 
 xml_path = 'catalog.xml'
 
-# ⚠️ নিচে 'YOUR_REPO_NAME' মুছে আপনার গিটহাব রিপোজিটরির সঠিক নাম বসান
-# উদাহরণ: repo_name = "My-eBook-Library"
-repo_name = "YOUR_REPO_NAME" 
+# আপনার স্ক্রিনশট অনুযায়ী রিপোজিটরির সঠিক নাম বসানো হয়েছে
+repo_name = "OPDS" 
 
-# আইকনের সরাসরি গিটহাব র-লিংক তৈরি করা হলো
+# আইকনের সরাসরি গিটহাব র-লিংক (Absolute URL)
 icon_url = f"https://raw.githubusercontent.com/HMHASHEMALI16/{repo_name}/main/Bookicon.png"
 
 xml_content = f"""<?xml version="1.0" encoding="utf-8"?>
@@ -69,4 +68,4 @@ xml_content += "\n</feed>"
 
 with open(xml_path, 'w', encoding='utf-8') as f:
     f.write(xml_content)
-    
+  
