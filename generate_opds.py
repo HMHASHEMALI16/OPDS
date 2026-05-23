@@ -1,7 +1,7 @@
 import os
 import datetime
 import html
-import urllib.parse  # URL এনকোড করার জন্য এটি নতুন যুক্ত করা হলো
+import urllib.parse
 
 folder_path = '.' 
 xml_path = 'catalog.xml'
@@ -38,6 +38,7 @@ for filename in os.listdir(folder_path):
             'filename': filename
         })
 
+# বইয়ের নাম অনুযায়ী অ্যালফাবেটিক্যালি সাজানো
 books.sort(key=lambda x: x['title'])
 
 for book in books:
@@ -45,7 +46,7 @@ for book in books:
     safe_author = html.escape(book['author'])
     safe_icon = html.escape(icon_url)
     
-    # ফাইলের নামকে URL এনকোড করে সরাসরি লাইভ লিংক তৈরি করা হলো
+    # 404 Error Fix: ফাইলের নাম URL Encode করে সম্পূর্ণ (Absolute) লিংক তৈরি করা হচ্ছে
     encoded_filename = urllib.parse.quote(book['filename'])
     download_url = f"{base_url}/{encoded_filename}"
 
@@ -66,4 +67,5 @@ xml_content += "\n</feed>"
 
 with open(xml_path, 'w', encoding='utf-8') as f:
     f.write(xml_content)
-  
+
+print("Success! catalog.xml has been generated with encoded Absolute URLs.")
