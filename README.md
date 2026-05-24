@@ -1,14 +1,14 @@
 ## 📚 HM 16 LIBRARY – OPDS Catalog
 
-আপনার E-Book Reader অ্যাপে নিচের OPDS লিংকটি যোগ করুন:
+Add the following OPDS link to your E-Book Reader app:
 
 ```
 https://hmhashemali16.github.io/OPDS/catalog.xml
 ```
 
-> উপরের লিংকের পাশে **Copy** আইকনে ক্লিক করলেই কপি হবে।
+> Click the **Copy** icon next to the link above to copy it.
 
-### ✅ সাপোর্টেড অ্যাপ:
+### ✅ Supported Apps:
 - Moon+ Reader
 - FBReader
 - Librera
